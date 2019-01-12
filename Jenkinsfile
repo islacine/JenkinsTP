@@ -4,6 +4,7 @@ pipeline {
     stage('Print') {
       steps {
         echo 'Hii'
+        bat 'gradle build'
       }
     }
   }
