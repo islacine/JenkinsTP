@@ -8,6 +8,3 @@ pipeline {
     }
   }
 }
-tools {
-gradle 'gradle'
-}
