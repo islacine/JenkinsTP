@@ -8,3 +8,6 @@ pipeline {
     }
   }
 }
+tools {
+gradle 'GRADLE_LATEST'
+}
