@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Print') {
       steps {
-        bat 'gradle build'
+        echo 'Hii'
       }
     }
   }
