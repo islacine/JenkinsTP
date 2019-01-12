@@ -9,5 +9,5 @@ pipeline {
   }
 }
 tools {
-gradle 'GRADLE_LATEST'
+gradle 'gradle'
 }
