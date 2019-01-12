@@ -60,7 +60,6 @@ uploadArchives {
 }
 
 test.finalizedBy "jacocoTestCoverageVerification","jacocoTestReport"
-jacocoTestReport.finalizedBy "sonarqube"
 
 
 
