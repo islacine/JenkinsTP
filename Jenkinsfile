@@ -1,4 +1,7 @@
 pipeline {
+  tools {
+    gradle 'gradle'
+  }
   agent any
   stages {
     stage('Print') {
